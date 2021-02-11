@@ -1,0 +1,13 @@
+F:\Project\WizBangSuperSudokuSlayer\bin\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.exe
+F:\Project\WizBangSuperSudokuSlayer\bin\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.deps.json
+F:\Project\WizBangSuperSudokuSlayer\bin\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.runtimeconfig.json
+F:\Project\WizBangSuperSudokuSlayer\bin\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.runtimeconfig.dev.json
+F:\Project\WizBangSuperSudokuSlayer\bin\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.dll
+F:\Project\WizBangSuperSudokuSlayer\bin\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.pdb
+F:\Project\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.csprojAssemblyReference.cache
+F:\Project\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.AssemblyInfoInputs.cache
+F:\Project\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.AssemblyInfo.cs
+F:\Project\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.csproj.CoreCompileInputs.cache
+F:\Project\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.dll
+F:\Project\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.pdb
+F:\Project\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.genruntimeconfig.cache
