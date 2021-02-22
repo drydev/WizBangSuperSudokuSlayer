@@ -7,7 +7,7 @@ class Solution
     static void Main(String[] args)
     {
         // Setup the board and problem with a 2d array
-        var csvRows = File.ReadAllLines(@"C:\Users\nick.dryden\OneDrive - Veritec Pty Ltd\Documents\Projects\WizBangSudokuSlayer\input.csv").Select(l => l.Split(',').ToArray()).ToArray();
+        var csvRows = File.ReadAllLines(@"<input path>\input.csv").Select(l => l.Split(',').ToArray()).ToArray();
         var sudoku = new char[9,9];
         for (int i = 0; i < 9; i++)
         {
