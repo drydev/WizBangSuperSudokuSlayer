@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.IO;
 using System.Linq;
 
 class Solution
@@ -7,23 +7,28 @@ class Solution
     static void Main(String[] args)
     {
         // Setup the board and problem with a 2d array
-        var sudoku = new char[,]
+        var csvRows = File.ReadAllLines(@"<input path>\input.csv").Select(l => l.Split(',').ToArray()).ToArray();
+        var sudoku = new char[9,9];
+        for (int i = 0; i < 9; i++)
         {
-            { '5', '3', '.', '.', '7', '.', '.', '.', '.' },
-            { '6', '.', '.', '1', '9', '5', '.', '.', '.' },
-            { '.', '9', '8', '.', '.', '.', '.', '6', '.' },
-            { '8', '.', '.', '.', '6', '.', '.', '.', '3' },
-            { '4', '.', '.', '8', '.', '3', '.', '.', '1' },
-            { '7', '.', '.', '.', '2', '.', '.', '.', '6' },
-            { '.', '6', '.', '.', '.', '.', '2', '8', '.' },
-            { '.', '.', '.', '4', '1', '9', '.', '.', '5' },
-            { '.', '.', '.', '.', '8', '.', '.', '7', '9' }
-        };
+            for (int j = 0; j < 9; j++)
+            {
+                sudoku[i,j] = Convert.ToChar(csvRows[i][j]);
+            }
+        }
 
         // Solve the problem
         solver(sudoku);
         // Display the result
-        Print2DArray(sudoku);
+        if(solver(sudoku) == true)
+        {
+            Print2DArray(sudoku);
+        }
+        else
+        {
+            Console.WriteLine("This puzzle is not solvable");
+        }
+        
     }
 
     // The main recursive solver
@@ -45,7 +50,7 @@ class Solution
             for (int n = 0; n < playBoard.GetLength(1); n++)
             {
                 // check to see if the currently selected instance is a '.'
-                if (playBoard[m, n] == '.')
+                if (playBoard[m, n] == '0')
                 {
 
                     // Gets each element of row and add to array
@@ -89,7 +94,7 @@ class Solution
 
                             else
                             {
-                                playBoard[m, n] = '.';
+                                playBoard[m, n] = '0';
                             }
                         }
                     }
@@ -134,8 +139,6 @@ class Solution
         }
         return startingReturn;
     }
-
-
 
     public static void Print2DArray<T>(T[,] matrix)
     {
