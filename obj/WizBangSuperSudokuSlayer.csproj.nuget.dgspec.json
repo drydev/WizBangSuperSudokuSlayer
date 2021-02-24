@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Project\\WizBangSuperSudokuSlayer\\WizBangSuperSudokuSlayer.csproj": {}
+    "C:\\Users\\nick.dryden\\OneDrive - Veritec Pty Ltd\\Documents\\Projects\\WizBangSuperSudokuSlayer\\WizBangSuperSudokuSlayer.csproj": {}
   },
   "projects": {
-    "F:\\Project\\WizBangSuperSudokuSlayer\\WizBangSuperSudokuSlayer.csproj": {
+    "C:\\Users\\nick.dryden\\OneDrive - Veritec Pty Ltd\\Documents\\Projects\\WizBangSuperSudokuSlayer\\WizBangSuperSudokuSlayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\WizBangSuperSudokuSlayer\\WizBangSuperSudokuSlayer.csproj",
+        "projectUniqueName": "C:\\Users\\nick.dryden\\OneDrive - Veritec Pty Ltd\\Documents\\Projects\\WizBangSuperSudokuSlayer\\WizBangSuperSudokuSlayer.csproj",
         "projectName": "WizBangSuperSudokuSlayer",
-        "projectPath": "F:\\Project\\WizBangSuperSudokuSlayer\\WizBangSuperSudokuSlayer.csproj",
-        "packagesPath": "C:\\Users\\zarte\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\WizBangSuperSudokuSlayer\\obj\\",
+        "projectPath": "C:\\Users\\nick.dryden\\OneDrive - Veritec Pty Ltd\\Documents\\Projects\\WizBangSuperSudokuSlayer\\WizBangSuperSudokuSlayer.csproj",
+        "packagesPath": "C:\\Users\\nick.dryden\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nick.dryden\\OneDrive - Veritec Pty Ltd\\Documents\\Projects\\WizBangSuperSudokuSlayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\zarte\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\nick.dryden\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -59,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
