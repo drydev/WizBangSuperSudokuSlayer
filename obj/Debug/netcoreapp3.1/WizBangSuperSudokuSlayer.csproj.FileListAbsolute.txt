@@ -11,16 +11,3 @@ F:\Project\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSl
 F:\Project\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.dll
 F:\Project\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.pdb
 F:\Project\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.genruntimeconfig.cache
-C:\Users\nick.dryden\OneDrive - Veritec Pty Ltd\Documents\Projects\WizBangSuperSudokuSlayer\bin\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.exe
-C:\Users\nick.dryden\OneDrive - Veritec Pty Ltd\Documents\Projects\WizBangSuperSudokuSlayer\bin\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.deps.json
-C:\Users\nick.dryden\OneDrive - Veritec Pty Ltd\Documents\Projects\WizBangSuperSudokuSlayer\bin\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.runtimeconfig.json
-C:\Users\nick.dryden\OneDrive - Veritec Pty Ltd\Documents\Projects\WizBangSuperSudokuSlayer\bin\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.runtimeconfig.dev.json
-C:\Users\nick.dryden\OneDrive - Veritec Pty Ltd\Documents\Projects\WizBangSuperSudokuSlayer\bin\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.dll
-C:\Users\nick.dryden\OneDrive - Veritec Pty Ltd\Documents\Projects\WizBangSuperSudokuSlayer\bin\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.pdb
-C:\Users\nick.dryden\OneDrive - Veritec Pty Ltd\Documents\Projects\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.csprojAssemblyReference.cache
-C:\Users\nick.dryden\OneDrive - Veritec Pty Ltd\Documents\Projects\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.AssemblyInfoInputs.cache
-C:\Users\nick.dryden\OneDrive - Veritec Pty Ltd\Documents\Projects\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.AssemblyInfo.cs
-C:\Users\nick.dryden\OneDrive - Veritec Pty Ltd\Documents\Projects\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.csproj.CoreCompileInputs.cache
-C:\Users\nick.dryden\OneDrive - Veritec Pty Ltd\Documents\Projects\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.dll
-C:\Users\nick.dryden\OneDrive - Veritec Pty Ltd\Documents\Projects\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.pdb
-C:\Users\nick.dryden\OneDrive - Veritec Pty Ltd\Documents\Projects\WizBangSuperSudokuSlayer\obj\Debug\netcoreapp3.1\WizBangSuperSudokuSlayer.genruntimeconfig.cache
