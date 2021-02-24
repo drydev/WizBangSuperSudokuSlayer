@@ -22,7 +22,7 @@ namespace WizBangSudokuSlayer
             else
             {
                 Console.WriteLine("This puzzle is not solvable");
-            }   
+            }
         }
         // The main recursive solver
         public static bool solver(int[,] playBoard)
@@ -136,5 +136,5 @@ namespace WizBangSudokuSlayer
             }
             return startingReturn;
         }
-
+    }
 }
