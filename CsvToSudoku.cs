@@ -6,7 +6,7 @@ namespace WizBangSuperSudokuSlayer
 {
     class CsvToSudoku
     {
-        public static char[,] CsvImporter()
+        public static int[,] CsvImporter()
         {
             Console.WriteLine("Please input CSV location: ");
             var inputLoc = Console.ReadLine();
@@ -18,13 +18,13 @@ namespace WizBangSuperSudokuSlayer
             //Get number of columns from the above
             var cols = csvCols[0].Split(',').Count();
 
-            var boardArray = new char[rows, cols];
+            var boardArray = new int[rows, cols];
 
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < cols; j++)
                 {
-                    boardArray[i, j] = Convert.ToChar(csvInput[i][j]);
+                    boardArray[i, j] = Convert.ToInt32(csvInput[i][j]);
                 }
             }
             return boardArray;

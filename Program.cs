@@ -17,17 +17,15 @@ namespace WizBangSudokuSlayer
             // Display the result
             if (solver(sudoku) == true)
             {
-                Print2DArray(sudoku);
+                PrintArray.Print2DArray(sudoku);
             }
             else
             {
                 Console.WriteLine("This puzzle is not solvable");
-            }
-            
+            }   
         }
-
         // The main recursive solver
-        public static bool solver(char[,] playBoard)
+        public static bool solver(int[,] playBoard)
         {
             //Get the size of the incoming board
             var rows = playBoard.GetLength(0);
@@ -35,9 +33,9 @@ namespace WizBangSudokuSlayer
 
 
             // declare some variables
-            var rowArray = new char[rows];
-            var colArray = new char[cols];
-            var currentBox = new char[9];
+            var rowArray = new int[rows];
+            var colArray = new int[cols];
+            var currentBox = new int[9];
 
             int boxRowStart;
             int boxColStart;
@@ -49,17 +47,17 @@ namespace WizBangSudokuSlayer
                 for (int n = 0; n < playBoard.GetLength(1); n++)
                 {
                     // check to see if the currently selected instance is a '.'
-                    if (playBoard[m, n] == '0')
+                    if (playBoard[m, n] == 0)
                     {
 
                         // Gets each element of row and add to array
-                        for (int i = 0; i <= rows; i++)
+                        for (int i = 0; i < rows; i++)
                         {
                             rowArray[i] = playBoard[m, i];
                         }
 
                         // Gets each element of Col and adds to array
-                        for (int i = 0; i <= cols; i++)
+                        for (int i = 0; i < cols; i++)
                         {
                             colArray[i] = playBoard[i, n];
                         }
@@ -79,7 +77,7 @@ namespace WizBangSudokuSlayer
                         // replace the '.' with a unique number 
                         for (int i = 1; i <= rows; i++)
                         {
-                            var uniqueNum = i.ToString()[0];
+                            var uniqueNum = i;
 
                             // Check the uniqueness of rows, columns and boxes, if so do the recursive strut. 
                             if (rowArray.Contains(uniqueNum) == false && colArray.Contains(uniqueNum) == false && currentBox.Contains(uniqueNum) == false)
@@ -93,7 +91,7 @@ namespace WizBangSudokuSlayer
 
                                 else
                                 {
-                                    playBoard[m, n] = '0';
+                                    playBoard[m, n] = 0;
                                 }
                             }
                         }
@@ -106,9 +104,9 @@ namespace WizBangSudokuSlayer
             return true;
         }
 
-        public static char[] boxLooper(int row, int col, char[,] playBoard)
+        public static int[] boxLooper(int row, int col, int[,] playBoard)
         {
-            var inputBox = new char[3];
+            var inputBox = new int[3];
 
             for (int i = 0; i <= 2; i++)
             {
@@ -138,18 +136,5 @@ namespace WizBangSudokuSlayer
             }
             return startingReturn;
         }
-
-        public static void Print2DArray<T>(T[,] matrix)
-        {
-            for (int i = 0; i < matrix.GetLength(0); i++)
-            {
-                for (int j = 0; j < matrix.GetLength(1); j++)
-                {
-                    Console.Write(matrix[i, j] + "\t");
-                }
-                Console.WriteLine();
-            }
-        }
-    }
 
 }
