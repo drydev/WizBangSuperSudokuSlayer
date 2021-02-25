@@ -4,20 +4,14 @@ using System.Linq;
 
 namespace WizBangSuperSudokuSlayer
 {
-    class CsvToSudoku
+    public class CsvToSudoku
     {
-        public static int[,] CsvImporter()
+        public static int[,] CsvImporter(string inputLoc)
         {
-
-            // Allow the user to input the location of the CSV, and declare some variables to handle row and col count later
-            Console.WriteLine("Please input CSV location: ");
-            var inputLoc = Console.ReadLine();
-            
             var rows = 0;
             var cols = 0;
 
-            // Attempt to import the CSV by location
-            // If failed catch the exception
+            // utilize the user input and attempt to load in the CSV via the path provided
             // This will allow us to get a count of rows and cols to then pass into another attempt at getting the full board into a 2d array
             try
             {

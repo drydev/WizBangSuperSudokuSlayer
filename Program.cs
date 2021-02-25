@@ -8,7 +8,8 @@ namespace WizBangSudokuSlayer
         static void Main(String[] args)
         {
             // Setup the board and problem with a 2d array
-            var sudoku = CsvToSudoku.CsvImporter();
+            var inputPath = Console.ReadLine();
+            var sudoku = CsvToSudoku.CsvImporter(inputPath);
 
             // Solve the problem
             SudokuSolver.solver(sudoku);
